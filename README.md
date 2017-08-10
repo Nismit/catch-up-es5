@@ -46,3 +46,20 @@ var func = function() {
   ...
 }
 ```
+
+### trailing commas
+JavaScript ignores trailing commas in arrays and objects
+
+```javascript
+var array = [1, 2, 3, 4,];
+array.length; // -> 4
+
+// sparse
+var arr = [1, 2, 3, 4,,,];
+arr.length; // -> 6
+
+var obj = {
+  id: 123,
+  name: 'nismit',
+};
+```
